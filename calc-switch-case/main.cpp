@@ -5,7 +5,6 @@ int main()
 {
     char op;
     double value1, value2;
-    // double value2;
 
     cout << "Enter value 1 = ";
     cin >> value1;
