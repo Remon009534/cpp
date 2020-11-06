@@ -22,15 +22,15 @@ int main()
             break;
         
         case '-':
-            cout << value1 << " - " << value2 << " = " << value1 + value2;
+            cout << value1 << " - " << value2 << " = " << value1 - value2;
             break;
         
         case '*':
-            cout << value1 << " * " << value2 << " = " << value1 + value2;
+            cout << value1 << " * " << value2 << " = " << value1 * value2;
             break;
         
         case '/':
-            cout << value1 << " / " << value2 << " = " << value1 + value2;
+            cout << value1 << " / " << value2 << " = " << value1 / value2;
             break;
         
         default:
