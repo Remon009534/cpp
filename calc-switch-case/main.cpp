@@ -3,8 +3,9 @@ using namespace std;
 
 int main()
 {
+    double value1;
+    double value2;
     char op;
-    double value1, value2;
 
     cout << "Enter value 1 = ";
     cin >> value1;
