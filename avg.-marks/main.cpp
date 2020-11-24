@@ -20,6 +20,7 @@ int main()
 
     int size = sizeof(val) / sizeof(val[0]);
 
+
     // Taking name of students and calculating the marks
     cout << "\nName of Student : ";
     cin >> students[0];
@@ -34,6 +35,8 @@ int main()
         total = total + val[i];
     }
 
+
+
     cout << "\nName of Student : ";
     cin >> students[1];
     cout << endl;
@@ -45,6 +48,8 @@ int main()
         cout << "_____________________" << endl;
         total1 = total1 + val1[i];
     }
+
+
 
     cout << "\nName of Student : ";
     cin >> students[2];
@@ -58,6 +63,8 @@ int main()
         total2 = total2 + val2[i];
     }
 
+
+
     cout << "\nName of Student : ";
     cin >> students[3];
     cout << endl; 
@@ -70,6 +77,8 @@ int main()
         total3 = total3 + val3[i];
     }
 
+
+
     cout << "\nName of Student : ";
     cin >> students[4];
     cout << endl; 
@@ -81,6 +90,8 @@ int main()
         cout << "_____________________" << endl;
         total4 = total4 + val4[i];
     }
+
+
 
     // Printing The Avg Scores
     cout << "\n*************** Avg Scores ***************" << endl;
