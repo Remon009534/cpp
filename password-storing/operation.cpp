@@ -23,6 +23,7 @@ void operation()
             cout << "Please Enter Your Password For ";
             cout << socialMed[i] << " >> ";
             cin >> pass[i];
+            cout << "_____________________________________________________________" << endl;
         }
     }
 
@@ -35,7 +36,7 @@ void operation()
     {
         for (int i = 0; i < 5; i++)
         {
-            cout << "The Password Of Your " << socialMed[i] << " >> " << pass[i] << endl;
+            cout << "The Password Of Your " << socialMed[i] << " >> " << pass[i] << "\n________________________________________________________\n" << endl;
         }
     }
 
