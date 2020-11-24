@@ -4,6 +4,7 @@ using namespace std;
 
 int main()
 {
+    // Declaring Variables
     string students[5];
     double val[5];
     double val1[5];
@@ -19,8 +20,7 @@ int main()
 
     int size = sizeof(val) / sizeof(val[0]);
 
-    // op(val, val1, val2, val3, val4, total, total1, total2, total3, total4);
-
+    // Taking name of students and calculating the marks
     cout << "\nName of Student : ";
     cin >> students[0];
     cout << endl;
@@ -29,7 +29,7 @@ int main()
     {
         
         cout << "Enter The marks = ";
-        cin >> val[1];
+        cin >> val[i];
         cout << "_____________________" << endl;
         total = total + val[i];
     }
@@ -43,7 +43,7 @@ int main()
         cout << "Enter The marks = ";
         cin >> val1[i];
         cout << "_____________________" << endl;
-        total = total1 + val1[i];
+        total1 = total1 + val1[i];
     }
 
     cout << "\nName of Student : ";
@@ -55,7 +55,7 @@ int main()
         cout << "Enter The marks = ";
         cin >> val2[i];
         cout << "_____________________" << endl;
-        total = total2 + val2[i];
+        total2 = total2 + val2[i];
     }
 
     cout << "\nName of Student : ";
@@ -67,7 +67,7 @@ int main()
         cout << "Enter The marks = ";
         cin >> val3[i];
         cout << "_____________________" << endl;
-        total = total3 + val3[i];
+        total3 = total3 + val3[i];
     }
 
     cout << "\nName of Student : ";
@@ -79,9 +79,10 @@ int main()
         cout << "Enter The marks = ";
         cin >> val4[i];
         cout << "_____________________" << endl;
-        total = total4 + val4[i];
+        total4 = total4 + val4[i];
     }
 
+    // Printing The Avg Scores
     cout << "\n*************** Avg Scores ***************" << endl;
 
     cout << students[0] << " : " << total << endl;
@@ -90,8 +91,7 @@ int main()
     cout << students[3] << " : " << total3 << endl;
     cout << students[4] << " : " << total4 << endl;
 
-    // cout << "\nThe Total Score Is " << (total + total1 + total2 + total3 + total4) / size << endl;
-
+    // Cotinue Function
     cout << "\nDo You Want To Continue >> ";
     cin >> con;
 
