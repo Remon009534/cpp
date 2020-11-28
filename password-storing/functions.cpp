@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
 // Functions To Print Out The Passwords 
