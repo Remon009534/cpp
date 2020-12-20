@@ -14,6 +14,7 @@ void fahrenheit(double temp)
 
 int main()
 {
+    string con;
     string input_1;
     double temp;
 
@@ -36,6 +37,20 @@ int main()
     else
     {
         cout << "Please enter 1 or 2.";
+        main();
+    }
+
+    cout << "Do you want to continue?? = ";
+    cin >> con;
+
+    if (con == "yes")
+    {
+        main();
+    }
+    
+    else
+    {
+        exit;
     }
 
     return 0;
